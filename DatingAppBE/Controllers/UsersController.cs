@@ -1,5 +1,6 @@
 ﻿using DatingAppBE.Data;
 using DatingAppBE.Entities;
+using DatingAppBE.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,30 +14,31 @@ namespace DatingAppBE.Controllers
 {
     [Route("api/Users")]
     [ApiController]
+
     public class UsersController : ControllerBase
     {
-        private readonly DataContext _context;
 
-        public UsersController(DataContext context)
+        private readonly IUserRepository _repository;
+        public UsersController(IUserRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         [Route("GetUSers")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUSers()
         {
-            return await _context.Users.ToListAsync();
+            return Ok(await _repository.GetUsersAsync());
 
         }
 
-        [Authorize]
-        [Route("GetUserAsync")]
+     
+        [Route("GetByUsername")]
         [HttpGet]
 
-        public ActionResult<AppUser> GetUserAsync(int id)
+        public async Task<ActionResult<AppUser>> GetUserAsync(string username)
         {
-            return _context.Users.Find(id);
+            return await _repository.GetUserByUserNameAsync(username);
 
         }
     }

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "erxK3vJLJnzAZMRVllnLGfEATSpuWYAk8iNaZSUX3ncGlX5j+NqufMN4syUPwO7Wx/wetUQos3dSZ7Eoq6oE2A==",
+  "dgSpecHash": "0lW+GUm2K7dj2kQfHUf/Vr6Wr4VlBxlwcnwzQjljpF2DRyOdfxF/Omwm8El8lGU/4svEx8j3wyS4XON1VECEBQ==",
   "success": true,
   "projectFilePath": "D:\\Dating Backend\\DatingAppBE\\DatingAppBE\\DatingAppBE.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Shiv\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Shiv\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Shiv\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Shiv\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\Shiv\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -42,6 +44,7 @@
     "C:\\Users\\Shiv\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Shiv\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.11.0\\system.identitymodel.tokens.jwt.6.11.0.nupkg.sha512",
     "C:\\Users\\Shiv\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Shiv\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []

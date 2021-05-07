@@ -1,5 +1,7 @@
 using DatingAppBE.Data;
+using DatingAppBE.Extensions;
 using DatingAppBE.Interfaces;
+using DatingAppBE.Middleware;
 using DatingAppBE.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -33,24 +35,10 @@ namespace DatingAppBE
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddScoped<ITokenService, TokenService>();
-            services.AddDbContext<DataContext>(options =>
-            {
-                options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
-            });
-            services.AddMvc();
+            services.AddApplicationServices(_config);
+            services.AddControllers();
             services.AddCors();
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                    {
-                        ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["TokenKey"])),
-                        ValidateIssuer = false,
-                        ValidateAudience = false
-                    };
-                });
+            services.AddIdentityService(_config);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,8 +50,9 @@ namespace DatingAppBE
                
             }
 
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
-
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
             app.UseRouting();
 
             app.UseAuthorization();
@@ -73,7 +62,7 @@ namespace DatingAppBE
                 endpoints.MapControllers();
             });
 
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            
             app.UseAuthentication();
         }
     }
