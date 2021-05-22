@@ -47,23 +47,18 @@ namespace DatingAppBE
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-               
             }
-
             app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
             app.UseRouting();
-
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
-
-            
-            app.UseAuthentication();
+            });  
         }
     }
 }

@@ -13,8 +13,8 @@
     "Country": "Maldives",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/26.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/26.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -32,8 +32,8 @@
     "Country": "Pitcairn",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/45.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/45.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -51,8 +51,8 @@
     "Country": "Algeria",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/11.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/11.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -70,8 +70,8 @@
     "Country": "Uruguay",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/56.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/56.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -89,8 +89,8 @@
     "Country": "United Arab Emirates",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/12.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/12.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -108,8 +108,8 @@
     "Country": "Kuwait",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/78.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/78.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -127,8 +127,8 @@
     "Country": "Zambia",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/81.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/81.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -146,8 +146,8 @@
     "Country": "Netherlands Antilles",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/62.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/62.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -165,8 +165,8 @@
     "Country": "Aruba",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/72.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/72.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -184,8 +184,8 @@
     "Country": "Dominica",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/38.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/38.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -203,8 +203,8 @@
       "Country": "Jordan",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/42.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/42.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -222,8 +222,8 @@
       "Country": "Tunisia",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/8.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/8.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -241,8 +241,8 @@
       "Country": "Yugoslavia",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/84.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/84.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -260,8 +260,8 @@
       "Country": "Lesotho",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/31.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/31.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -279,8 +279,8 @@
       "Country": "Egypt",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/16.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/16.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -298,8 +298,8 @@
       "Country": "Uruguay",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/24.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -317,8 +317,8 @@
       "Country": "Sudan",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/13.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/13.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -336,8 +336,8 @@
       "Country": "Luxembourg",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/51.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/51.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -355,8 +355,8 @@
       "Country": "Bosnia and Herzegovina",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/25.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/25.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -374,8 +374,8 @@
       "Country": "Laos",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/women/28.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/women/28.jpg",
+          "IsMain": true
         }
       ]
     }

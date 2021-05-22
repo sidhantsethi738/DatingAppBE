@@ -26,10 +26,10 @@ namespace DatingAppBE.Entities
 
         public ICollection<Photo> Photos { get; set; }
 
-        public int GetAge()
-        {
+        //public int GetAge()
+        //{
 
-            return DateofBirth.CalculateAge();
-        }
+        //    return DateofBirth.CalculateAge();
+        //}
     }
 }
