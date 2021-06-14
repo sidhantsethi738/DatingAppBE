@@ -4,9 +4,6 @@ using DatingAppBE.Helpers;
 using DatingAppBE.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace DatingAppBE.Services
@@ -29,9 +26,9 @@ namespace DatingAppBE.Services
         public async Task<ImageUploadResult> AddPhotoAsync(IFormFile file)
         {
             var uploadResult = new ImageUploadResult();
-             if(file.Length >0)
+            if (file.Length > 0)
             {
-                 using var stream = file.OpenReadStream();
+                using var stream = file.OpenReadStream();
                 var uploadParams = new ImageUploadParams
                 {
                     File = new FileDescription(file.FileName, stream),
@@ -45,7 +42,7 @@ namespace DatingAppBE.Services
 
         public async Task<DeletionResult> DeletePhotoAsync(string PublicId)
         {
-            var deleteParams = new DeletionParams( PublicId);
+            var deleteParams = new DeletionParams(PublicId);
             var result = await _cloudinary.DestroyAsync(deleteParams);
             return result;
         }
