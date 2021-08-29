@@ -61,3 +61,4 @@ D:\Dating Backend\DatingAppBE\DatingAppBE\obj\Debug\net5.0\DatingAppBE.dll
 D:\Dating Backend\DatingAppBE\DatingAppBE\obj\Debug\net5.0\ref\DatingAppBE.dll
 D:\Dating Backend\DatingAppBE\DatingAppBE\obj\Debug\net5.0\DatingAppBE.pdb
 D:\Dating Backend\DatingAppBE\DatingAppBE\obj\Debug\net5.0\DatingAppBE.genruntimeconfig.cache
+D:\Dating Backend\DatingAppBE\DatingAppBE\obj\Debug\net5.0\DatingAppBE.csproj.AssemblyReference.cache
